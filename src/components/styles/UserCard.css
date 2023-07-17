@@ -1,0 +1,90 @@
+.user {
+    background-color: white;
+    color: black;
+    width: 381px;
+    height: 274px;
+    border-radius: 0.2em;
+    border: solid 1px #E5E5E5;
+    overflow: hidden;
+    transition: transform 200ms ease;
+    padding-bottom: 1.5em;
+}
+
+.user:hover {
+    transform: scale(1.05em);
+}
+
+.user__name {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.user__line {
+    margin-bottom: 1em;
+    border-color: #aaa3;
+}
+
+.user__list {
+    display: grid;
+    gap: 0.8em;
+    
+}
+
+.user__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    padding-bottom: 1.0em;
+}
+
+.user__label {
+    color: #D3D3D3;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 1em;
+
+}
+
+.user__item-value{
+    color: #302F2F;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 1em;
+}
+
+.user__footer {
+    padding-top: 1.0em;
+    padding-right: 0.5em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.user__btn-delete {
+    width: 43px;
+    height: 43px;
+    background-color: #D85D5D;
+    color: white;
+   
+}
+
+.user__btn-delete:hover {
+    filter: brightness(1.2);
+}
+
+.user__btn-update {
+    width: 43px;
+    height: 43px;
+    background-color: #f6f6f6;
+    color: #d3d3d3;
+
+}
+    
+.user__btn-update:hover {
+    filter: brightness(1.1);
+}
+
